@@ -49,6 +49,12 @@ piece is turned over to reveal the color of that player. A winner is
 declared when one player has more pieces of his own color on the board
 and there are no more possible moves.
 
+%description -l pl.UTF-8
+Kreversi jest prostą grą strategiczną. Gracz gra przeciwko komputerowi.
+Jeśli pionek gracza jest zdobyty przez oponenta, to zmienia swój kolor
+na kolor przeciwnika. Zwycięzcą jest ten z graczy, który ma więcej
+pionków w swoim kolorze, gdy na planszy nie można już wykonać ruchu.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
